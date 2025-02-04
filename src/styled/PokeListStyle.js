@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { Link } from "react-router-dom"; 
 export const PokemonListBox = styled.div`
    display: grid;
    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -10,7 +10,7 @@ export const PokemonListBox = styled.div`
    border-radius: 10px;
 `
 
-export const PokemonCards = styled.div`
+export const PokemonCards = styled(Link)`
  border: 1px solid rgb(221, 221, 221);
  border-radius: 10px;
  background-color: white;
@@ -20,6 +20,13 @@ export const PokemonCards = styled.div`
  padding: 10px;
  cursor: pointer;
  transition: transform 0.2s, box-shadow 0.2s;
+ text-decoration: none;
+ transition: transform 0.3s ease, box-shadow 0.3s ease;  /* 부드러운 효과 */
+
+&:hover {
+    transform: translateY(-10px);  /*  마우스를 올리면 살짝 떠오름 */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px;  /*  그림자 강화 */
+}
 `
 
 export const PokemonsImg = styled.img`
