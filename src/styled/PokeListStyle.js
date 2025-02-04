@@ -56,3 +56,4 @@ export const PokeAddBtn = styled.button`
    color: white;
    border-radius: 5px;
 `
+
