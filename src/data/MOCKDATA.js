@@ -5,7 +5,7 @@ const MOCK_DATA = [
      korean_name: "이상해씨",
      types: ["풀", "독"],
      id: 1,
-     description: "풀과 독 타입의 포켓몬으로, 귀여운 식물 모양을 하고 있습니다.",
+     description: "태어나서부터 얼마 동안은 등의 씨앗으로부터 영양을 공급받아서 크게 성장한다",
    },
    {
      img_url:
@@ -13,7 +13,7 @@ const MOCK_DATA = [
      korean_name: "이상해풀",
      types: ["풀", "독"],
      id: 2,
-     description: "이상해씨의 진화형으로, 등에는 꽃봉오리가 있습니다.",
+     description: "등의 봉오리가 부풀어 오르면 달콤한 냄새가 감돌기 시작한다. 큰 꽃이 필 조짐이다.",
    },
    {
      img_url:
@@ -21,7 +21,7 @@ const MOCK_DATA = [
      korean_name: "이상해꽃",
      types: ["풀", "독"],
      id: 3,
-     description: "이상해풀의 최종 진화형으로, 등에는 큰 꽃이 피어 있습니다.",
+     description: "비가 내린 다음 날은 등의 꽃향기가 강해진다. 향기에 이끌려 포켓몬이 모여든다.",
    },
    {
      img_url:
@@ -29,7 +29,7 @@ const MOCK_DATA = [
      korean_name: "파이리",
      types: ["불꽃"],
      id: 4,
-     description: "불꽃 타입의 포켓몬으로, 꼬리에 불이 붙어 있습니다.",
+     description: "파이리 꼬리의 불꽃은 생명의 등불이다. 건강할 때는 불꽃도 강하게 타오른다.",
    },
    {
      img_url:
@@ -37,7 +37,7 @@ const MOCK_DATA = [
      korean_name: "리자드",
      types: ["불꽃"],
      id: 5,
-     description: "파이리의 진화형으로, 더 큰 몸집과 강한 불을 가집니다.",
+     description: "싸움에서 기분이 고조되면 작열하는 불꽃을 뿜으며 주변을 태워버린다.",
    },
    {
      img_url:
@@ -46,7 +46,7 @@ const MOCK_DATA = [
      types: ["불꽃", "비행"],
      id: 6,
      description:
-       "리자드의 최종 진화형으로, 강력한 불꽃과 비행 능력을 가졌습니다.",
+       "날개로 넓은 하늘을 높이 난다. 싸움의 경험이 쌓일수록 불꽃의 온도가 올라간다.",
    },
    {
      img_url:
@@ -54,7 +54,7 @@ const MOCK_DATA = [
      korean_name: "꼬부기",
      types: ["물"],
      id: 7,
-     description: "물 타입의 포켓몬으로, 작은 거북이 모양입니다.",
+     description: "태어난 뒤 등이 커지고 단단한 등껍질이 생긴다. 입에서 강력한 거품을 내뿜는다.",
    },
    {
      img_url:
@@ -62,7 +62,7 @@ const MOCK_DATA = [
      korean_name: "어니부기",
      types: ["물"],
      id: 8,
-     description: "꼬부기의 진화형으로, 더 강한 방어력을 가집니다.",
+     description: "탐스러운 귀와 꼬리를 능숙하게 다뤄서 수중에서의 밸런스를 유지한다.",
    },
    {
      img_url:
@@ -70,7 +70,7 @@ const MOCK_DATA = [
      korean_name: "거북왕",
      types: ["물"],
      id: 9,
-     description: "어니부기의 최종 진화형으로, 강력한 물 공격을 가집니다.",
+     description: "등껍질의 로켓포로부터 뿜어내는 수류는 두꺼운 철판도 한번에 꿰뚫는 파괴력이 있다.",
    },
    {
      img_url:
@@ -78,7 +78,7 @@ const MOCK_DATA = [
      korean_name: "캐터피",
      types: ["벌레"],
      id: 10,
-     description: "벌레 타입의 포켓몬으로, 작고 귀여운 모습입니다.",
+     description: "머리 끝에 있는 더듬이에 닿으면 강렬한 냄새를 내서 몸을 보호하려 한다.",
    },
    {
      img_url:
@@ -86,7 +86,7 @@ const MOCK_DATA = [
      korean_name: "단데기",
      types: ["벌레"],
      id: 11,
-     description: "캐터피의 진화형으로, 단단한 껍질을 가집니다.",
+     description: "진화를 기다리는 상태다. 단단해지는 것밖에 할 수 없어서 공격받지 않도록 꿈쩍 않고 있다.",
    },
    {
      img_url:
@@ -94,7 +94,7 @@ const MOCK_DATA = [
      korean_name: "버터플",
      types: ["벌레", "비행"],
      id: 12,
-     description: "단데기의 최종 진화형으로, 아름다운 나비 모양입니다.",
+     description: "꿀을 모으러 꽃에서 꽃으로 날아다닌다. 거리가 멀어도 어떤 꽃이 피었는지 탐지한다.",
    },
    {
      img_url:
@@ -110,7 +110,7 @@ const MOCK_DATA = [
      korean_name: "딱충이",
      types: ["벌레", "독"],
      id: 14,
-     description: "뿔충이의 진화형으로, 단단한 껍질을 가집니다.",
+     description: "성체의 몸을 만들기 위해서 일시적인 상태. 스스로 거의 움직이지 않는다.",
    },
    {
      img_url:
@@ -118,7 +118,7 @@ const MOCK_DATA = [
      korean_name: "독침붕",
      types: ["벌레", "독"],
      id: 15,
-     description: "딱충이의 최종 진화형으로, 독침을 가졌습니다.",
+     description: "고속으로 날아다녀 양팔과 엉덩이에 있는 커다란 독바늘을 사용해 상대를 공격한다.",
    },
    {
      img_url:
@@ -134,7 +134,7 @@ const MOCK_DATA = [
      korean_name: "피죤",
      types: ["노말", "비행"],
      id: 17,
-     description: "구구의 진화형으로, 더 큰 몸집과 강한 비행 능력을 가집니다.",
+     description: "	매우 시력이 좋다. 아무리 높은 장소에서라도 먹이가 움직이는 모습을 구별한다.",
    },
    {
      img_url:
@@ -142,7 +142,7 @@ const MOCK_DATA = [
      korean_name: "피죤투",
      types: ["노말", "비행"],
      id: 18,
-     description: "피죤의 최종 진화형으로, 매우 빠른 비행 능력을 가집니다.",
+     description: "마하 2의 속도로 비행하며 먹잇감을 찾는다. 커다란 발톱은 무기로서도 두려움의 대상이다.",
    },
    {
      img_url:
@@ -158,7 +158,7 @@ const MOCK_DATA = [
      korean_name: "레트라",
      types: ["노말"],
      id: 20,
-     description: "꼬렛의 진화형으로, 더 큰 몸집을 가집니다.",
+     description: "튼튼한 이빨은 점점 자라나기에 바위나 큰 나무를 갉아서 깎는다. 집의 벽을 갉아버리기도 한다.",
    },
    {
      img_url:
@@ -166,7 +166,7 @@ const MOCK_DATA = [
      korean_name: "깨비참",
      types: ["노말", "비행"],
      id: 21,
-     description: "노말과 비행 타입의 포켓몬으로, 작은 새 모양입니다.",
+     description: "자신의 영역을 지키기 위해 작은 날개를 쳐서 바쁘게 주위를 날아 맴돈다.",
    },
    {
      img_url:
@@ -174,7 +174,7 @@ const MOCK_DATA = [
      korean_name: "깨비드릴조",
      types: ["노말", "비행"],
      id: 22,
-     description: "깨비참의 진화형으로, 큰 부리와 빠른 속도를 가집니다.",
+     description: "커다란 날개로 넓은 하늘을 계속 날 수 있다. 한 번도 내려앉지 않아도 괜찮다.", //-----------
    },
    {
      img_url:
