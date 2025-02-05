@@ -9,7 +9,7 @@ export default function Router() {
          <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/dex" element={<Dex />} />
-            <Route path="/pokemon" element={<PokemonDetail />} />
+            <Route path="/pokemon/:id" element={<PokemonDetail />} />
          </Routes>
         </BrowserRouter>
     );

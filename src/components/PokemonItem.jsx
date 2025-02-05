@@ -6,7 +6,7 @@ export const PokemonItem = ({ pokemon, onAddPokemon }) => {
                      pokemon.id;
 
    return (
-       <PokemonCards key={pokemon.id} to={`/pokemon?pid=${pokemon.id}`} >
+       <PokemonCards key={pokemon.id} to={`/pokemon/${pokemon.id}`} >
            <PokemonsImg src={pokemon.img_url} alt={pokemon.korean_name} />
            <PokemonsInfo>
                <PokemonsName>{pokemon.korean_name}</PokemonsName>
