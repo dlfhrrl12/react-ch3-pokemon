@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom"; 
+
+// 포켓몬 리스트 상자 태그
 export const PokemonListBox = styled.div`
    display: grid;
    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -9,7 +11,7 @@ export const PokemonListBox = styled.div`
    border: 1px solid rgb(221, 221, 221);
    border-radius: 10px;
 `
-
+// 포켓몬 카드 태그 및 Detail 이동 링크
 export const PokemonCards = styled(Link)`
  border: 1px solid rgb(221, 221, 221);
  border-radius: 10px;
@@ -29,15 +31,19 @@ export const PokemonCards = styled(Link)`
 }
 `
 
+// 포켓몬 이미지 크기
 export const PokemonsImg = styled.img`
    width: 100px;
    height: 100px;
 `;
 
+
+// 포켓몬 정보 상자 태그
 export const PokemonsInfo = styled.div`
    margin-top: 10px;
 `
 
+// 포켓몬 이름
 export const PokemonsName = styled.p`
    font-size: 14px;
    font-weight: bold;
@@ -46,6 +52,7 @@ export const PokemonsName = styled.p`
    color: black;
 `
 
+// 포켓몬 ID
 export const PokemonID = styled.p`
    font-size: 12px;
    color: rgb(102, 102, 102);
@@ -53,6 +60,7 @@ export const PokemonID = styled.p`
    margin-bottom: 12px;
 `
 
+// 포켓몬 추가 버튼
 export const PokeAddBtn = styled.button`
    margin-top: 10px;
    padding: 5px 10px;

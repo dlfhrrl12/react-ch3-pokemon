@@ -1,5 +1,6 @@
 import styled, { createGlobalStyle } from "styled-components";
 
+// 홈화면 포켓몬 이미지 로고
 export const PokemonImg = styled.img`
    width: 600px;
    height: 220px;
@@ -8,6 +9,7 @@ export const PokemonImg = styled.img`
    background-position: center;
 `;
 
+// Dex.jsx 이동 버튼
 export const DexLink = styled.button`
    padding: 10px 20px;
    font-size: 18px;
@@ -18,6 +20,7 @@ export const DexLink = styled.button`
    border: none;
 `;
 
+// Home 화면 스타일 중앙 지정
 export const HomeStyle = createGlobalStyle`
    .poketHome{
       display: flex;

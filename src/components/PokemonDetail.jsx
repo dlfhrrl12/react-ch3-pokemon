@@ -6,12 +6,12 @@ import { PokemonID } from "../styled/PokeListStyle";
 
 export const PokemonDetail = () => {
   const navigate = useNavigate();
-  const { id } = useParams();
+  const { id } = useParams(); // 포켓몬 id 값 찾기
   
-  
+  // 포켓몬 data 에서 id 정보 찾기
   const matchedPokemon = MOCK_DATA.find((pokemon) => String(pokemon.id) === String(id));
   
-  if (!matchedPokemon) {
+  if (!matchedPokemon) { // 예외 처리
     return (
       <DetailContainer>
         <h2>해당 포켓몬을 찾을 수 없습니다.</h2>
@@ -24,11 +24,11 @@ export const PokemonDetail = () => {
                     matchedPokemon.id < 100 ? `0${matchedPokemon.id}` :
                     matchedPokemon.id;
 
-  const {
-    korean_name,
-    img_url,
-    types,
-    description,
+  const { // 포켓몬 id 값의 다른 객체 정보들 
+    korean_name, // 이름
+    img_url, // 이미지
+    types, // 속성 타입
+    description,// 포켓몬 정보
   } = matchedPokemon;
 
    return (
@@ -42,7 +42,7 @@ export const PokemonDetail = () => {
                <PokemonID style={{ fontSize: "20px" }}>No. {pokemonID}</PokemonID>
                <PokemonDescription>{description}</PokemonDescription>
            </PokemonInfoBox>
-           <BackButton onClick={() => navigate(-1)}>뒤로 가기</BackButton>
+           <BackButton onClick={() => navigate(-1)}>뒤로 가기</BackButton> {/* 뒤로가기 기능 router-dom */}
        </DetailContainer>
    );
 };

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+//DashBoard 나의 포켓몬 카드 태그
 export const MyPokemonCards = styled.div`
  border: 1px solid rgb(221, 221, 221);
  display: flex;
@@ -14,6 +15,7 @@ export const MyPokemonCards = styled.div`
  transition: transform 0.2s, box-shadow 0.2s;
 `
 
+// 포켓몬 삭제 버튼
 export const PokeDeleteBtn = styled.button`
    margin-top: 10px;
    padding: 5px 10px;
@@ -25,6 +27,7 @@ export const PokeDeleteBtn = styled.button`
    border-radius: 5px;
 `
 
+// 나의 포켓몬 카드 리스트
 export const MyPokemonList = styled.div`
    display: grid;
    grid-template-columns: repeat(6, 1fr);
@@ -33,6 +36,7 @@ export const MyPokemonList = styled.div`
    justify-items: center;
 `
 
+// 나의 포켓몬 공간
 export const MyPokemons = styled.div`
    width: 100px;
    height: 100px;
@@ -44,6 +48,7 @@ export const MyPokemons = styled.div`
    border-radius: 10px;
 `
 
+// 빈 공간 포켓몬 이미지 크기
 export const Pokeball = styled.img`
    width: 50px;
    height: 50px;

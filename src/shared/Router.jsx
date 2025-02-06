@@ -9,7 +9,7 @@ export default function Router() {
          <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/dex" element={<Dex />} />
-            <Route path="/pokemon/:id" element={<PokemonDetail />} />
+            <Route path="/pokemon/:id" element={<PokemonDetail />} /> {/* useParams 를 이용해 Detail 페이지로 이동 */}
          </Routes>
         </BrowserRouter>
     );
