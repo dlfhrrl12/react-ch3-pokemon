@@ -12,5 +12,32 @@
 ---
 
 ## 2. 프로젝트 구조  
-react-ch3-pokemon │── index.html │── public/ // 이미지 파일 저장 │── src/ │ ├── components/ │ │ ├── DashBoard.jsx │ │ ├── PokemonDetail.jsx │ │ ├── PokemonList.jsx │ │ ├── PokemonItem.jsx │ ├── context/ │ │ ├── PokemonContext.jsx │ ├── data/ │ │ ├── MOCKDATA.js │ ├── pages/ │ │ ├── Dex.jsx │ │ ├── Home.jsx │ ├── shared/ │ │ ├── Router.jsx │ ├── styled/ │ │ ├── AppStyle.js │ │ ├── DetailPokemon.js │ │ ├── DexStyle.js │ │ ├── HomeStyle.js │ │ ├── MyPokemonCards.js │ │ ├── PokeListStyle.js
+```
+react-ch3-pokemon  
+│  
+├── index.html  
+├── public/  → 이미지 파일 저장  
+├── src/  
+│   ├── components/  
+│   │   ├── DashBoard.jsx  
+│   │   ├── PokemonDetail.jsx  
+│   │   ├── PokemonList.jsx  
+│   │   ├── PokemonItem.jsx  
+│   ├── context/  
+│   │   ├── PokemonContext.jsx  
+│   ├── data/  
+│   │   ├── MOCKDATA.js  
+│   ├── pages/  
+│   │   ├── Dex.jsx  
+│   │   ├── Home.jsx  
+│   ├── shared/  
+│   │   ├── Router.jsx  
+│   ├── styled/  
+│   │   ├── AppStyle.js  
+│   │   ├── DetailPokemon.js  
+│   │   ├── DexStyle.js  
+│   │   ├── HomeStyle.js  
+│   │   ├── MyPokemonCards.js  
+│   │   ├── PokeListStyle.js
+```
 
