@@ -41,3 +41,10 @@ react-ch3-pokemon
 │   │   ├── PokeListStyle.js
 ```
 
+---
+## 3. 트러블 슈팅 블로그 링크
+https://tigulmoa.tistory.com/entry/20250203%EA%B0%9C%EC%9D%B8%EA%B3%BC%EC%A0%9CPokemon-Lis
+https://tigulmoa.tistory.com/entry/20250204TIL-Ch3-%ED%8F%AC%EC%BC%93%EB%AA%AC-%EB%8F%84%EA%B0%90
+https://tigulmoa.tistory.com/entry/20250205TIL-Pokemon-Detail-Page
+https://tigulmoa.tistory.com/entry/20250206-TIL-Context-API
+
